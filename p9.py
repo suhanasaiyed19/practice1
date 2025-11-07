@@ -1,4 +1,9 @@
-#write a python program to find the sum of even numbers using command line arguement.
+#write a menu driven python program which perform the following:
+# 1find area of circle,
+# 2find area of triangle,
+# 3find area of a square and rectangle,
+# 4find simple interest exit.
+#(Hint : use infinite while loop for menu)
 import math
 
 while True:
