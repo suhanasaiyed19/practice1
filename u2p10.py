@@ -2,17 +2,17 @@
 #functions DA, HRA, PF, and ITAX. Create another program 
 #that uses the function of employee module and calculates gross 
 #and net salaries of an employee.
-import employe
+import employee
 
 name=input("Enter Name:")
 basic=float(input("Enter salary:"))
 
-da=employe.DA(basic)
-hra=employe.HRA(basic)
-pf=employe.PF(basic)
+da=employee.DA(basic)
+hra=employee.HRA(basic)
+pf=employee.PF(basic)
 
-gross=basic+da=hra
-itex=employe.ITEX(gross)
+gross=basic+da+hra
+itex=employee.ITEX(gross)
 net=gross-(pf+itex)
 
 print("Employee Name:",name)
